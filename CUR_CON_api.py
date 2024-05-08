@@ -19,7 +19,7 @@ def currency_converter(amount_in_INR):
         if amount_in_INR==int or float :
             print(f'The amount is {amount_in_USD}USD')
     except Exception as e:
-        print("Enter a valid integer or float value for amount.")
+        print("Enter a valid integer or float value for amount.") 
     
 # currency_converter([2,3])  
 currency_converter(100)
